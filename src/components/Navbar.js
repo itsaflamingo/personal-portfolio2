@@ -1,5 +1,6 @@
 // src/components/Navbar.js
 import React from "react";
+import About from "./About";
 
 export default function NavBar() {
   return (

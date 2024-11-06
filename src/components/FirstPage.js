@@ -1,11 +1,14 @@
 import React from "react";
+import About from "./About";
 
-export default function FirstPage() {
+export default function HomePage() {
   return (
-    <div>
-      <h3>My name is</h3>
-      <h1>Elizabeth Pinero</h1>
-      <h2>Building digital solutions.</h2>
+    <div className="text">
+      <h3>Hi, my name is</h3>
+      <h1 className="text-6xl">Elizabeth Pinero</h1>
+      <h2 className="text-2xl">
+        Building digital solutions one line at a time.
+      </h2>
     </div>
   );
 }

@@ -2,6 +2,7 @@ import * as React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/global.css";
 import FirstPage from "../components/FirstPage";
+import About from "../components/About";
 
 export default function Home() {
   return (
@@ -10,8 +11,7 @@ export default function Home() {
       <FirstPage />
       <div>
         <section id="about">
-          <h2>About</h2>
-          <p>Some information about me...</p>
+          <About />
         </section>
 
         <section id="projects">
