@@ -9,10 +9,7 @@ export default function Home() {
   return (
     <div className="h-screen w-full relative overflow-y:scroll">
       <Navbar />
-      {/* <div className="flex"> */}
-      <SocialsBar />
       <FirstPage />
-      {/* </div> */}
       <div>
         <section id="about">
           <About />
@@ -28,6 +25,7 @@ export default function Home() {
           <p>Get in touch with me...</p>
         </section>
       </div>
+      <SocialsBar />
     </div>
   );
 }
