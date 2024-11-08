@@ -7,7 +7,7 @@ import SocialsBar from "../components/SocialsBar";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full relative overflow-y:scroll">
+    <div className="h-screen w-full relative overflow-y:scroll m-0 px-5">
       <Navbar />
       <FirstPage />
       <div>
