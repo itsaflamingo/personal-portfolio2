@@ -10,21 +10,19 @@ export default function Home() {
     <div className="h-screen w-full relative overflow-y:scroll m-0 px-5">
       <Navbar />
       <FirstPage />
-      <div>
-        <section id="about">
-          <About />
-        </section>
-
-        <section id="projects">
-          <h2>Projects</h2>
-          <p>Details about my projects...</p>
-        </section>
-
-        <section id="contact">
-          <h2>Contact</h2>
-          <p>Get in touch with me...</p>
-        </section>
+      <div className="w-full flex justify-center items-start h-screen">
+        <About />
       </div>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>Details about my projects...</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with me...</p>
+      </section>
       <SocialsBar />
     </div>
   );
