@@ -3,12 +3,16 @@ import Navbar from "../components/Navbar";
 import "../styles/global.css";
 import FirstPage from "../components/FirstPage";
 import About from "../components/About";
+import SocialsBar from "../components/SocialsBar";
 
 export default function Home() {
   return (
-    <div className="bg">
+    <div className="h-screen w-full relative overflow-y:scroll">
       <Navbar />
+      {/* <div className="flex"> */}
+      <SocialsBar />
       <FirstPage />
+      {/* </div> */}
       <div>
         <section id="about">
           <About />

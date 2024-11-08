@@ -3,7 +3,7 @@ import About from "./About";
 
 export default function HomePage() {
   return (
-    <div className="text">
+    <div className="w-11/12 text h-[93%] flex flex-col justify-self-end">
       <h3>Hi, my name is</h3>
       <h1 className="text-6xl">Elizabeth Pinero</h1>
       <h2 className="text-2xl">
